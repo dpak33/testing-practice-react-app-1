@@ -12,3 +12,4 @@ test('URL is correct', () => {
   const linkElement = screen.getByTestId('learn-link');
   expect(linkElement.href).toContain('ultimateqa.com');
 });
+
